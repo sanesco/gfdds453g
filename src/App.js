@@ -8,8 +8,11 @@ export class App extends Component {
       <div>
         <nav>
           {/*Aca deben ir los links de navegacion*/}
+          <Link to="page1">Page1</Link>
+         <Link to="page2">Page2</Link>
         </nav>
         {/* Aca tienes que agreager algo para que las rutas funcionen*/}
+          {this.props.children}
       </div>
     )
   }
